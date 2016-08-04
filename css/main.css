@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-stretch: normal; }
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-stretch: normal; }
+.home {
+  width: 80%;
+  max-width: 72rem;
+  margin: 9% auto; }
+  .home ul {
+    margin: 3.6rem 0; }
+    .home ul > li {
+      display: inline;
+      padding: 0.9rem;
+      font-size: 2rem; }
+      @media (min-width: 20rem) and (max-width: 26rem) {
+        .home ul > li {
+          font-size: 1.5rem; } }
+      @media (min-width: 1rem) and (max-width: 20rem) {
+        .home ul > li {
+          font-size: 1.4rem; } }
+      .home ul > li:first-child {
+        padding-left: 0; }
+      .home ul > li a {
+        color: #CCFFF7;
+        -webkit-transition: color 0.1s ease-in-out;
+        -moz-transition: color 0.1s ease-in-out;
+        -ms-transition: color 0.1s ease-in-out;
+        -o-transition: color 0.1s ease-in-out;
+        transition: color 0.1s ease-in-out; }
+        .home ul > li a[href*="instagram"]:hover {
+          color: rgba(138, 58, 185, 0.9); }
+        .home ul > li a[href*="linkedin"]:hover {
+          color: rgba(0, 119, 181, 0.9); }
+        .home ul > li a[href*="twitter"]:hover {
+          color: rgba(50, 106, 218, 0.9); }
+        .home ul > li a[href*="mail"]:hover {
+          color: rgba(111, 255, 233, 0.4); }
+
+.about {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 4.2rem;
+  line-height: 6.1rem; }
+  @media (min-width: 26rem) and (max-width: 48rem) {
+    .about {
+      font-size: 3.8rem;
+      line-height: 5.3rem; } }
+  @media (min-width: 20rem) and (max-width: 26rem) {
+    .about {
+      font-size: 2.2rem;
+      line-height: 3.3rem; } }
+  @media (min-width: 1rem) and (max-width: 20rem) {
+    .about {
+      font-size: 1.8rem;
+      line-height: 2.7rem; } }
+  .about a {
+    color: #CCFFF7;
+    border-bottom: 2px solid;
+    -webkit-transition: color 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out;
+    -ms-transition: color 0.1s ease-in-out;
+    -o-transition: color 0.1s ease-in-out;
+    transition: color 0.1s ease-in-out; }
+    .about a[href*="cupenya"] {
+      border-color: rgba(0, 126, 229, 0.5); }
+      .about a[href*="cupenya"]:hover {
+        color: rgba(0, 126, 229, 0.9); }
+    .about a[href*="medium"] {
+      border-color: rgba(130, 255, 181, 0.5); }
+      .about a[href*="medium"]:hover {
+        color: rgba(130, 255, 181, 0.9); }
+    .about a[href*="amsterdam"] {
+      border-color: rgba(204, 41, 54, 0.5); }
+      .about a[href*="amsterdam"]:hover {
+        color: rgba(204, 41, 54, 0.9); }
+    .about a[href*="kriegerthedog"] {
+      border-color: rgba(138, 58, 185, 0.5); }
+      .about a[href*="kriegerthedog"]:hover {
+        color: rgba(138, 58, 185, 0.9); }
+    .about a[href*="strava"] {
+      border-color: rgba(252, 76, 2, 0.6); }
+      .about a[href*="strava"]:hover {
+        color: rgba(252, 76, 2, 0.9); }
+
+@media (min-width: 48rem) and (max-width: 78rem) {
+  br {
+    display: none; } }
+@media (min-width: 26rem) and (max-width: 48rem) {
+  br {
+    display: none; } }
+@media (min-width: 20rem) and (max-width: 26rem) {
+  br {
+    display: none; } }
+@media (min-width: 1rem) and (max-width: 20rem) {
+  br {
+    display: none; } }
+
+html, body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 2.1rem;
+  color: #CCFFF7; }
+
+body {
+  background-color: #0B132B; }
+
+.fa {
+  font-size: 36px;
+}
