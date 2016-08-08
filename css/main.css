@@ -71,25 +71,25 @@ a {
       .home ul > li:first-child {
         padding-left: 0; }
       .home ul > li a {
-        color: #CCFFF7;
+        color: #FFFBEF;
         -webkit-transition: color 0.1s ease-in-out;
         -moz-transition: color 0.1s ease-in-out;
         -ms-transition: color 0.1s ease-in-out;
         -o-transition: color 0.1s ease-in-out;
         transition: color 0.1s ease-in-out; }
         .home ul > li a[href*="instagram"]:hover {
-          color: rgba(138, 58, 185, 0.9); }
+          color: rgba(138, 58, 185, 0.8); }
         .home ul > li a[href*="linkedin"]:hover {
-          color: rgba(0, 119, 181, 0.9); }
+          color: rgba(0, 119, 181, 0.8); }
         .home ul > li a[href*="twitter"]:hover {
-          color: rgba(50, 106, 218, 0.9); }
+          color: rgba(29, 161, 242, 0.8); }
         .home ul > li a[href*="mail"]:hover {
-          color: rgba(111, 255, 233, 0.4); }
+          color: rgba(183, 28, 28, 0.8); }
 
 .about {
   font-family: Montserrat, Arial, sans-serif;
-  font-size: 4.2rem;
-  line-height: 6.1rem; }
+  font-size: 2.5rem;
+  line-height: 4rem; }
   @media (min-width: 26rem) and (max-width: 48rem) {
     .about {
       font-size: 3.8rem;
@@ -103,33 +103,33 @@ a {
       font-size: 1.8rem;
       line-height: 2.7rem; } }
   .about a {
-    color: #CCFFF7;
-    border-bottom: 2px solid;
+    color: #FFFBEF;
+    border-bottom: 1px solid;
     -webkit-transition: color 0.1s ease-in-out;
     -moz-transition: color 0.1s ease-in-out;
     -ms-transition: color 0.1s ease-in-out;
     -o-transition: color 0.1s ease-in-out;
     transition: color 0.1s ease-in-out; }
     .about a[href*="cupenya"] {
-      border-color: rgba(0, 126, 229, 0.5); }
+      border-color: rgba(44, 62, 80, 0.5); }
       .about a[href*="cupenya"]:hover {
-        color: rgba(0, 126, 229, 0.9); }
+        color: rgba(44, 62, 80, 0.8); }
     .about a[href*="medium"] {
       border-color: rgba(130, 255, 181, 0.5); }
       .about a[href*="medium"]:hover {
-        color: rgba(130, 255, 181, 0.9); }
+        color: rgba(130, 255, 181, 0.8); }
     .about a[href*="amsterdam"] {
       border-color: rgba(204, 41, 54, 0.5); }
       .about a[href*="amsterdam"]:hover {
-        color: rgba(204, 41, 54, 0.9); }
+        color: rgba(204, 41, 54, 0.8); }
     .about a[href*="kriegerthedog"] {
       border-color: rgba(138, 58, 185, 0.5); }
       .about a[href*="kriegerthedog"]:hover {
-        color: rgba(138, 58, 185, 0.9); }
+        color: rgba(138, 58, 185, 0.8); }
     .about a[href*="strava"] {
       border-color: rgba(252, 76, 2, 0.6); }
       .about a[href*="strava"]:hover {
-        color: rgba(252, 76, 2, 0.9); }
+        color: rgba(252, 76, 2, 0.8); }
 
 @media (min-width: 48rem) and (max-width: 78rem) {
   br {
@@ -148,10 +148,10 @@ html, body {
   font-family: Montserrat, sans-serif;
   font-size: 16px;
   line-height: 2.1rem;
-  color: #CCFFF7; }
+  color: #FFFBEF; }
 
 body {
-  background-color: #0B132B; }
+  background-color: #D8D8D8; }
 
 .fa {
   font-size: 36px;
