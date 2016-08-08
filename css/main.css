@@ -115,9 +115,9 @@ a {
       .about a[href*="cupenya"]:hover {
         color: rgba(44, 62, 80, 0.8); }
     .about a[href*="medium"] {
-      border-color: rgba(130, 255, 181, 0.5); }
+      border-color: rgba(2, 184, 117, 0.5) }
       .about a[href*="medium"]:hover {
-        color: rgba(130, 255, 181, 0.8); }
+        color: rgba(2, 184, 117, 0.8); }
     .about a[href*="amsterdam"] {
       border-color: rgba(204, 41, 54, 0.5); }
       .about a[href*="amsterdam"]:hover {
