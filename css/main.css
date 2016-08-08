@@ -88,8 +88,8 @@ a {
 
 .about {
   font-family: Montserrat, Arial, sans-serif;
-  font-size: 2.5rem;
-  line-height: 4rem; }
+  font-size: 2.9rem;
+  line-height: 4.5rem; }
   @media (min-width: 26rem) and (max-width: 48rem) {
     .about {
       font-size: 3.8rem;
