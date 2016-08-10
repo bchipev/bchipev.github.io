@@ -85,6 +85,8 @@ a {
           color: rgba(29, 161, 242, 0.8); }
         .home ul > li a[href*="mail"]:hover {
           color: rgba(183, 28, 28, 0.8); }
+        .home ul > li a[href*="spotify"]:hover {
+          color: rgba(46, 189, 89, 0.8); }
 
 .about {
   font-family: Montserrat, Arial, sans-serif;
