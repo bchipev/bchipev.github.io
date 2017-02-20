@@ -112,10 +112,10 @@ a {
     -ms-transition: color 0.1s ease-in-out;
     -o-transition: color 0.1s ease-in-out;
     transition: color 0.1s ease-in-out; }
-    .about a[href*="cupenya"] {
-      border-color: rgba(44, 62, 80, 0.5); }
-      .about a[href*="cupenya"]:hover {
-        color: rgba(44, 62, 80, 0.8); }
+    .about a[href*="qelp"] {
+      border-color: rgba(214, 0, 0, 0.5); }
+      .about a[href*="qelp"]:hover {
+        color: rgba(214, 0, 0, 0.8); }
     .about a[href*="medium"] {
       border-color: rgba(2, 184, 117, 0.5) }
       .about a[href*="medium"]:hover {
