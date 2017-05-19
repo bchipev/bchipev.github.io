@@ -124,14 +124,14 @@ a {
       border-color: rgba(204, 41, 54, 0.5); }
       .about a[href*="amsterdam"]:hover {
         color: rgba(204, 41, 54, 0.8); }
-    .about a[href*="bozhantravels"] {
+    .about a[href*="argosgoodboye"] {
       border-color: rgba(138, 58, 185, 0.5); }
-      .about a[href*="bozhantravels"]:hover {
+      .about a[href*="argosgoodboye"]:hover {
         color: rgba(138, 58, 185, 0.8); }
-    .about a[href*="strava"] {
-      border-color: rgba(252, 76, 2, 0.6); }
-      .about a[href*="strava"]:hover {
-        color: rgba(252, 76, 2, 0.8); }
+    .about a[href*="discord"] {
+      border-color: rgba(199, 156, 110, 0.6); }
+      .about a[href*="discord"]:hover {
+        color: rgba(199, 156, 110, 0.8); }
 
 @media (min-width: 48rem) and (max-width: 78rem) {
   br {
