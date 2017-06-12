@@ -128,9 +128,9 @@ a {
       border-color: rgba(138, 58, 185, 0.5); }
       .about a[href*="argosgoodboye"]:hover {
         color: rgba(138, 58, 185, 0.8); }
-    .about a[href*="discord"] {
+    .about a[href*="revamp"] {
       border-color: rgba(199, 156, 110, 0.6); }
-      .about a[href*="discord"]:hover {
+      .about a[href*="revamp"]:hover {
         color: rgba(199, 156, 110, 0.8); }
 
 @media (min-width: 48rem) and (max-width: 78rem) {
