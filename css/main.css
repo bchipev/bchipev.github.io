@@ -77,15 +77,15 @@ a {
         -ms-transition: color 0.1s ease-in-out;
         -o-transition: color 0.1s ease-in-out;
         transition: color 0.1s ease-in-out; }
-        .home ul > li a[href*="instagram"]:hover {
-          color: rgba(138, 58, 185, 0.8); }
-        .home ul > li a[href*="linkedin"]:hover {
-          color: rgba(0, 119, 181, 0.8); }
+        .home ul > li a[href*="github"]:hover {
+          color: rgba(51, 51, 51, 0.8); }
+        .home ul > li a[href*="behance"]:hover {
+          color: rgba(23, 105, 255, 0.8); }
         .home ul > li a[href*="twitter"]:hover {
           color: rgba(29, 161, 242, 0.8); }
         .home ul > li a[href*="mail"]:hover {
           color: rgba(183, 28, 28, 0.8); }
-        .home ul > li a[href*="spotify"]:hover {
+        .home ul > li a[href*="medium"]:hover {
           color: rgba(46, 189, 89, 0.8); }
 
 .about {
@@ -124,14 +124,14 @@ a {
       border-color: rgba(204, 41, 54, 0.5); }
       .about a[href*="amsterdam"]:hover {
         color: rgba(204, 41, 54, 0.8); }
-    .about a[href*="argosgoodboye"] {
-      border-color: rgba(138, 58, 185, 0.5); }
-      .about a[href*="argosgoodboye"]:hover {
-        color: rgba(138, 58, 185, 0.8); }
-    .about a[href*="goodreads"] {
-      border-color: rgba(199, 156, 110, 0.6); }
-      .about a[href*="goodreads"]:hover {
-        color: rgba(199, 156, 110, 0.8); }
+    .about a[href*="behance"] {
+      border-color: rgba(23, 105, 255, 0.5); }
+      .about a[href*="behance"]:hover {
+        color: rgba(23, 105, 255, 0.8); }
+    .about a[href*="github"] {
+      border-color: rgba(51, 51, 51, 0.5); }
+      .about a[href*="github"]:hover {
+        color: rgba(51, 51, 51, 0.8); }
 
 @media (min-width: 48rem) and (max-width: 78rem) {
   br {
