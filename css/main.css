@@ -134,6 +134,14 @@ a {
       border-color: rgba(51, 51, 51, 0.5); }
       .about a[href*="github"]:hover {
         color: rgba(51, 51, 51, 0.8); }
+    .about a[href*="twitch"] {
+      border-color: rgba(51, 51, 51, 0.5); }
+      .about a[href*="twitch"]:hover {
+        color: rgba(51, 51, 51, 0.8); }
+    .about a[href*="youtube"] {
+      border-color: rgba(51, 51, 51, 0.5); }
+      .about a[href*="youtube"]:hover {
+        color: rgba(51, 51, 51, 0.8); }
 
 @media (min-width: 48rem) and (max-width: 78rem) {
   br {
