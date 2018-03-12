@@ -112,14 +112,10 @@ a {
     -ms-transition: color 0.1s ease-in-out;
     -o-transition: color 0.1s ease-in-out;
     transition: color 0.1s ease-in-out; }
-    .about a[href*="verge"] {
-      border-color: rgba(229, 12, 125, 0.5); }
-      .about a[href*="verge"]:hover {
-        color: rgba(229, 12, 125, 0.8); }
-    .about a[href*="polygon"] {
-      border-color: rgba(255, 0, 82, 0.5); }
-      .about a[href*="polygon"]:hover {
-        color: rgba(255, 0, 82, 0.8); }
+    .about a[href*="qelp"] {
+      border-color: rgba(180, 0, 0, 0.5); }
+      .about a[href*="qelp"]:hover {
+        color: rgba(180, 0, 0, 0.8); }
     .about a[href*="twitch"] {
       border-color: rgba(100, 65, 164, 0.5); }
       .about a[href*="twitch"]:hover {
