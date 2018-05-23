@@ -41,17 +41,25 @@ table {
   border-spacing: 0; }
 
 a {
+  font-family: 'product_sansbold';
   text-decoration: none;
   color: inherit; }
 
 @font-face {
-  font-family: Montserrat;
-  font-style: normal;
-  font-stretch: normal; }
+    font-family: 'product_sansregular';
+    src: url('product_sans_regular-webfont.woff2') format('woff2'),
+         url('product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal}
+
+
 @font-face {
-  font-family: Montserrat;
-  font-style: normal;
-  font-stretch: normal; }
+    font-family: 'product_sansbold';
+    src: url('product_sans_bold-webfont.woff2') format('woff2'),
+         url('product_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal}
+
 .home {
   width: 80%;
   max-width: 72rem;
@@ -91,7 +99,7 @@ a {
           color: rgba(255, 0, 0, 0.8) }
 
 .about {
-  font-family: Montserrat, Arial, sans-serif;
+  font-family: 'product_sansregular', Arial, sans-serif;
   font-size: 2.9rem;
   line-height: 4.5rem; }
   @media (min-width: 26rem) and (max-width: 48rem) {
@@ -141,7 +149,7 @@ a {
     display: none; } }
 
 html, body {
-  font-family: Montserrat, sans-serif;
+  font-family: 'product_sansregular', sans-serif;
   font-size: 16px;
   line-height: 2.1rem;
   color: #FFFBEF; }
