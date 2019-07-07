@@ -41,23 +41,24 @@ table {
   border-spacing: 0; }
 
 a {
-  font-family: 'product_sansbold';
+  font-family: 'Avenir Next';
+  font-weight: bold;
   text-decoration: none;
   color: inherit; }
 
 @font-face {
-    font-family: 'product_sansregular';
-    src: url('product_sans_regular-webfont.woff2') format('woff2'),
-         url('product_sans_regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Avenir Next';
+    src: url('AvenirNext-Medium.woff2') format('woff2'),
+         url('AvenirNext-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal}
 
 
 @font-face {
-    font-family: 'product_sansbold';
-    src: url('product_sans_bold-webfont.woff2') format('woff2'),
-         url('product_sans_bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Avenir Next';
+    src: url('AvenirNext-Bold.woff2') format('woff2'),
+         url('AvenirNext-Bold.woff') format('woff');
+    font-weight: bold;
     font-style: normal}
 
 .home {
@@ -79,27 +80,25 @@ a {
       .home ul > li:first-child {
         padding-left: 0; }
       .home ul > li a {
-        color: #FFFBEF;
+        color: #5834B3;
         -webkit-transition: color 0.1s ease-in-out;
         -moz-transition: color 0.1s ease-in-out;
         -ms-transition: color 0.1s ease-in-out;
         -o-transition: color 0.1s ease-in-out;
         transition: color 0.1s ease-in-out; }
-        .home ul > li a[href*="twitch"]:hover {
-          color: rgba(100, 65, 164, 0.8); }
-          .home ul > li a[href*="behance"]:hover {
-            color: rgba(23, 105, 255, 0.8); }
+        .home ul > li a[href*="behance"]:hover {
+          color: #22FFD2; }
         .home ul > li a[href*="twitter"]:hover {
-          color: rgba(29, 161, 242, 0.8); }
+          color: #22FFD2; }
         .home ul > li a[href*="mail"]:hover {
-          color: rgba(183, 28, 28, 0.8); }
+          color: #22FFD2; }
         .home ul > li a[href*="medium"]:hover {
-          color: rgba(46, 189, 89, 0.8); }
+          color: #22FFD2; }
         .home ul > li a[href*="pdf"]:hover {
-          color: rgba(255, 0, 0, 0.8) }
+          color: #22FFD2; }
 
 .about {
-  font-family: 'product_sansregular', Arial, sans-serif;
+  font-family: 'Avenir Next', Arial, sans-serif;
   font-size: 2.9rem;
   line-height: 4.5rem; }
   @media (min-width: 26rem) and (max-width: 48rem) {
@@ -115,25 +114,21 @@ a {
       font-size: 1.8rem;
       line-height: 2.7rem; } }
   .about a {
-    color: #FFFBEF;
-    border-bottom: 1px solid;
+    color: #5834B3;
+    border-bottom: 2px solid;
     -webkit-transition: color 0.1s ease-in-out;
     -moz-transition: color 0.1s ease-in-out;
     -ms-transition: color 0.1s ease-in-out;
     -o-transition: color 0.1s ease-in-out;
     transition: color 0.1s ease-in-out; }
     .about a[href*="qelp"] {
-      border-color: rgba(180, 0, 0, 0.5); }
+      border-color: #A7FFED; }
       .about a[href*="qelp"]:hover {
-        color: rgba(180, 0, 0, 0.8); }
-    .about a[href*="twitch"] {
-      border-color: rgba(100, 65, 164, 0.5); }
-      .about a[href*="twitch"]:hover {
-        color: rgba(100, 65, 164, 0.8); }
+        color: #22FFD2; }
     .about a[href*="mailto"] {
-      border-color: rgba(29, 161, 242, 0.5); }
+      border-color: #A7FFED; }
       .about a[href*="mailto"]:hover {
-        color: rgba(29, 161, 242, 0.8); }
+        color: #22FFD2; }
 
 @media (min-width: 48rem) and (max-width: 78rem) {
   br {
@@ -149,13 +144,13 @@ a {
     display: none; } }
 
 html, body {
-  font-family: 'product_sansregular', sans-serif;
+  font-family: 'Avenir Next', Arial, sans-serif;
   font-size: 16px;
   line-height: 2.1rem;
-  color: #FFFBEF; }
+  color: #333; }
 
 body {
-  background-color: #D8D8D8; }
+  background-color: #FAFAFA; }
 
 .fa {
   font-size: 36px;
