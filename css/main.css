@@ -121,9 +121,9 @@ a {
     -ms-transition: color 0.1s ease-in-out;
     -o-transition: color 0.1s ease-in-out;
     transition: color 0.1s ease-in-out; }
-    .about a[href*="qelp"] {
+    .about a[href*="tweakers"] {
       border-color: #A7FFED; }
-      .about a[href*="qelp"]:hover {
+      .about a[href*="tweakers"]:hover {
         color: #22FFD2; }
     .about a[href*="mailto"] {
       border-color: #A7FFED; }
