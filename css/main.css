@@ -41,7 +41,7 @@ table {
   border-spacing: 0; }
 
 a {
-  font-family: 'Avenir Next';
+  font-family: 'Avenir Next', Arial, sans-serif;
   font-weight: bold;
   text-decoration: none;
   color: inherit; }
@@ -51,7 +51,7 @@ p {
 }
 
 @font-face {
-    font-family: 'Avenir Next';
+    font-family: 'Avenir Next', Arial, sans-serif;
     src: url('AvenirNext-Medium.woff2') format('woff2'),
          url('AvenirNext-Medium.woff') format('woff');
     font-weight: 500;
@@ -59,7 +59,7 @@ p {
 
 
 @font-face {
-    font-family: 'Avenir Next';
+    font-family: 'Avenir Next', Arial, sans-serif;
     src: url('AvenirNext-Bold.woff2') format('woff2'),
          url('AvenirNext-Bold.woff') format('woff');
     font-weight: bold;
