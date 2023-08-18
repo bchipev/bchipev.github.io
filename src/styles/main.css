@@ -1,0 +1,12 @@
+:root {
+    --primary-color: purple;
+    --secondary-color: green;
+    --surface-primary-color: lightgrey;
+    --surface-secondary-color: white;
+    --text-color: #333;
+    --link-color: orange;
+}
+
+h1 {
+    color: var(--primary-color);
+}
