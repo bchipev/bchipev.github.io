@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js!./src/styles/main.css":
@@ -8,6 +7,7 @@
   \*****************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -32,7 +32,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `:root {
 
 h1 {
     color: var(--primary-color);
-}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,uBAAuB;IACvB,wBAAwB;IACxB,kCAAkC;IAClC,gCAAgC;IAChC,kBAAkB;IAClB,oBAAoB;AACxB;;AAEA;IACI,2BAA2B;AAC/B","sourcesContent":[":root {\n    --primary-color: purple;\n    --secondary-color: green;\n    --surface-primary-color: lightgrey;\n    --surface-secondary-color: white;\n    --text-color: #333;\n    --link-color: orange;\n}\n\nh1 {\n    color: var(--primary-color);\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,uBAAuB;IACvB,wBAAwB;IACxB,kCAAkC;IAClC,gCAAgC;IAChC,kBAAkB;IAClB,oBAAoB;AACxB;;AAEA;IACI,2BAA2B;AAC/B","sourcesContent":[":root {\r\n    --primary-color: purple;\r\n    --secondary-color: green;\r\n    --surface-primary-color: lightgrey;\r\n    --surface-secondary-color: white;\r\n    --text-color: #333;\r\n    --link-color: orange;\r\n}\r\n\r\nh1 {\r\n    color: var(--primary-color);\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -45,6 +45,7 @@ h1 {
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -139,6 +140,7 @@ module.exports = function (cssWithMappingToString) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -164,6 +166,7 @@ module.exports = function (item) {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -218,6 +221,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -311,6 +315,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -354,6 +359,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -373,6 +379,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -392,6 +399,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -462,6 +470,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -476,6 +485,29 @@ function styleTagTransform(css, styleElement) {
   }
 }
 module.exports = styleTagTransform;
+
+/***/ }),
+
+/***/ "./src/components/navigationBar.js":
+/*!*****************************************!*\
+  !*** ./src/components/navigationBar.js ***!
+  \*****************************************/
+/***/ (() => {
+
+const template = document.createElement("template");
+template.innerHTML = `<h4>hello I'm bar</h4>`;
+
+class NavigationBar extends HTMLElement {
+    constructor() {
+        super();
+
+        this.attachShadow({mode: 'open'});
+        this.shadowRoot.appendChild(template.content.cloneNode(true));
+
+    }
+}
+
+window.customElements.define('navigation-bar', NavigationBar);
 
 /***/ })
 
@@ -553,16 +585,20 @@ module.exports = styleTagTransform;
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!************************!*\
   !*** ./src/website.js ***!
   \************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
+/* harmony import */ var _components_navigationBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/navigationBar */ "./src/components/navigationBar.js");
+/* harmony import */ var _components_navigationBar__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_navigationBar__WEBPACK_IMPORTED_MODULE_1__);
+
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle105210d4f5e48a296aa9.js.map
+//# sourceMappingURL=bundled9a47ec51b0e8fff01a0.js.map
