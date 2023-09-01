@@ -4,6 +4,13 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Hi, I'm Bo and I build websites.">
+	<nav>
+		<a href="">Home</a>
+		<a href="">Websites</a>
+		<a href="">E-commerce</a>
+		<a href="">Customer Service</a>
+		<a href="">About</a>
+	</nav>
 	<main>
 		<div class="header-container">
 			<img src="/src/images/profile.svg" alt="Pixelart portrait of Bo" class="profile-picture">
@@ -15,23 +22,52 @@ import Card from '../components/Card.astro';
 				<a href="/work/">View my work</a>
 			</div>
 		</div>
+		<section class="offering" id="websites">
+			<img src="https://place-hold.it/300x300" alt="">
+			<h2>Get recognized and generate leads</h2>
+			<p>Are you a startup looking to showcase your innovative product? Or a freelancer with an awesome portfolio? I can help you make a website that not only looks good, but also brings in clients.</p>
+			<div class="cards-container">
+				<Card title="Project One" href="#" body="Some short text to populate the card for now" imageSrc='https://place-hold.it/300x120'></Card>
+				<Card title="Project Two" href="#" body="Some short text to populate the card for now" imageSrc='https://place-hold.it/300x120'></Card>
+			</div>
+		</section>
+		<section class="offering" id="ecommerce">
+			<img src="https://place-hold.it/300x300" alt="">
+			<h2>Start selling merch in no time</h2>
+			<p>Are you a creator on YouTube or Twitch with a large audience, but no merchandise store? I can get you started with a webshop that your fans will love to spend their money on!</p>
+			<div class="cards-container">
+				<Card title="Project One" href="#" body="Some short text to populate the card for now" imageSrc='https://place-hold.it/300x120'></Card>
+				<Card title="Project Two" href="#" body="Some short text to populate the card for now" imageSrc='https://place-hold.it/300x120'></Card>
+			</div>
+		</section>
+		<section class="offering" id="customer-service">
+			<img src="https://place-hold.it/300x300" alt="">
+			<h2>Chat with your customers</h2>
+			<p>Are you a business that is looking to take their customer service to the digital age? I can make sure your customers can reach you in a way that is easy for them and manageable for you!</p>
+			<div class="cards-container">
+				<Card title="Project One" href="#" body="Some short text to populate the card for now" imageSrc='https://place-hold.it/300x120'></Card>
+				<Card title="Project Two" href="#" body="Some short text to populate the card for now" imageSrc='https://place-hold.it/300x120'></Card>
+			</div>
+		</section>
 	</main>
 </Layout>
 
 <style>
 	main {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 100dvh;
-		min-height: fit-content;
+		width: 100%;
+		color: var(--text-color);
 	}
 	.header-container {
-		color: var(--text-color);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		gap: 4rem;
+		height: 100dvh;
+		min-height: fit-content;
 		max-width: 60%;
 		padding: 5rem 0 5rem 0;
 	}
@@ -64,5 +100,17 @@ import Card from '../components/Card.astro';
 	.header-container .header-content a::after {
 		content: ">>";
 		padding-left: 0.5rem;
+	}
+
+	section.offering {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		justify-content: center;
+		align-items: center;
+		height: 100dvh;
+		min-height: fit-content;
+		max-width: 60%;
+		padding: 5rem 0 5rem 0;
 	}
 </style>
