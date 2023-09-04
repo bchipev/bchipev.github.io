@@ -1,16 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Navigation from '../components/Navigation.astro';
 ---
 
 <Layout title="Hi, I'm Bo and I build websites.">
-	<nav>
-		<a href="">Home</a>
-		<a href="">Websites</a>
-		<a href="">E-commerce</a>
-		<a href="">Customer Service</a>
-		<a href="">About</a>
-	</nav>
+	<Navigation></Navigation>
 	<main>
 		<div class="header-container">
 			<img src="/src/images/profile.svg" alt="Pixelart portrait of Bo" class="profile-picture">
@@ -84,6 +79,7 @@ import Card from '../components/Card.astro';
 
 	.header-container .header-content h1 {
 		font-size: 4rem;
+		font-weight: 600;
 	}
 
 	.header-container .header-content p {
@@ -95,6 +91,7 @@ import Card from '../components/Card.astro';
 		color: var(--accent-color);
 		font-size: 2rem;
 		text-decoration: none;
+		font-weight: 600;
 	}
 
 	.header-container .header-content a::after {

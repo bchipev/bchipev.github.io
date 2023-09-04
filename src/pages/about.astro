@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Navigation from '../components/Navigation.astro';
+---
+
+<Layout title="Hi, I'm Bo and I build websites.">
+	<Navigation></Navigation>
+	<main>
+		<div class="header-container">
+			<img src="/src/images/profile.svg" alt="Pixelart portrait of Bo" class="profile-picture">
+			<div class="header-content">
+				<h1>Hi, I'm Bo.</h1>
+				<p class="subtitle">
+					I help small businesses and independent creators to effortlessly launch their websites with integrated E-Commerce and Customer Service capabilities.
+				</p>
+			</div>
+		</div>
+	</main>
+</Layout>
+
+<style>
+	main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		color: var(--text-color);
+	}
+	.header-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 4rem;
+		height: 100dvh;
+		min-height: fit-content;
+		max-width: 60%;
+		padding: 5rem 0 5rem 0;
+	}
+
+	.header-container img {
+		border-radius: 120px;
+	}
+
+	.header-container .header-content {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.header-container .header-content h1 {
+		font-size: 4rem;
+	}
+
+	.header-container .header-content p {
+		font-size: 1.5rem;
+		line-height: 135%;
+	}
+
+	.header-container .header-content a {
+		color: var(--accent-color);
+		font-size: 2rem;
+		text-decoration: none;
+	}
+
+	.header-container .header-content a::after {
+		content: ">>";
+		padding-left: 0.5rem;
+	}
+</style>
