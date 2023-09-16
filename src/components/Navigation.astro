@@ -6,7 +6,7 @@ const currentPath = pathname.slice(1); // remove the first "/"
 <nav>
     <a class={currentPath === "" ? "active" : ""} href="/">Home</a>
     <a class={currentPath === "websites/" ? "active" : ""} href="/websites/">Websites</a>
-     <a class={currentPath === "ecommerce/" ? "active" : ""} href="/ecommerce/">E-commerce</a>
+    <a class={currentPath === "ecommerce/" ? "active" : ""} href="/ecommerce/">E-commerce</a>
     <a class={currentPath === "customer-service/" ? "active" : ""} href="/customer-service/">Customer Service</a>
     <a class={currentPath === "about/" ? "active" : ""} href="/about/">About Me</a>
     <a class={currentPath === "contact/" ? "active" : ""} href="/contact/">Contact Me</a>
@@ -20,6 +20,9 @@ const currentPath = pathname.slice(1); // remove the first "/"
         justify-content: center;
         display: flex;
         gap: 2rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     nav a {
@@ -32,5 +35,12 @@ const currentPath = pathname.slice(1); // remove the first "/"
     nav a.active {
         font-weight: bold;
         color: var(--accent-color)
+    }
+
+    @media (max-width: 784px) {
+        nav {
+            top: unset;
+            bottom: 0;
+        }
     }
 </style>
