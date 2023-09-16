@@ -61,20 +61,22 @@ import Navigation from '../components/Navigation.astro';
 		align-items: center;
 		justify-content: center;
 		gap: 4rem;
-		height: 100dvh;
-		min-height: fit-content;
+		min-height: 100dvh;
 		max-width: 60%;
 		padding: 5rem 0 5rem 0;
 	}
 
 	.header-container img {
 		border-radius: 120px;
+		max-width: calc(50% - 1rem);
 	}
 
 	.header-container .header-content {
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
+		min-width: 22rem;
+		max-width: calc(50% - 1rem);
 	}
 
 	.header-container .header-content h1 {
@@ -88,9 +90,7 @@ import Navigation from '../components/Navigation.astro';
 	}
 
 	.header-container .header-content a {
-		color: var(--accent-color);
 		font-size: 2rem;
-		text-decoration: none;
 		font-weight: 600;
 	}
 
@@ -105,9 +105,36 @@ import Navigation from '../components/Navigation.astro';
 		gap: 2rem;
 		justify-content: center;
 		align-items: center;
-		height: 100dvh;
-		min-height: fit-content;
+		min-height: 100dvh;
 		max-width: 60%;
 		padding: 5rem 0 5rem 0;
 	}
+
+	.cards-container {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 1rem;
+	}
+
+	@media (max-width: 784px) {
+		.header-container {
+			max-width: calc(100% - 1rem);
+			flex-direction: column;
+		}
+		.header-container img {
+			max-width: 5rem;
+		}
+		.header-content {
+			text-align: center;
+		}
+		section.offering {
+			max-width: calc(100% - 1rem);
+		}
+
+		.cards-container {
+			grid-template-columns: 1fr;
+		}
+	}
+
 </style>
