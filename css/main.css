@@ -91,7 +91,7 @@ p {
         transition: color 0.1s ease-in-out; }
         .home ul > li a[href*="behance"]:hover {
           color: #22FFD2; }
-        .home ul > li a[href*="twitter"]:hover {
+        .home ul > li a[href*="bluesky"]:hover {
           color: #22FFD2; }
         .home ul > li a[href*="mail"]:hover {
           color: #22FFD2; }
